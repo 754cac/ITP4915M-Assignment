@@ -1,4 +1,4 @@
-# Procurement System
+# ITP4915M-Assignment
 
 This is a procurement system developed in C# as part of the ITP4915M System Development Project module. The system aims to streamline and automate the procurement process for a catering company, enhancing efficiency and reducing operational costs.
 
