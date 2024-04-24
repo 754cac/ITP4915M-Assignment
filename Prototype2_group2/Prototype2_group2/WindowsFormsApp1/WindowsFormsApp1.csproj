@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9588182-D4DD-44CA-8EC9-19EB168424D8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BPACreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BPACreate.designer.cs">
+      <DependentUpon>BPACreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BPACreate2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BPACreate2.designer.cs">
+      <DependentUpon>BPACreate2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BPAEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BPAEdit.designer.cs">
+      <DependentUpon>BPAEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BPAEdit2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BPAEdit2.designer.cs">
+      <DependentUpon>BPAEdit2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BPAReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BPAReport.Designer.cs">
+      <DependentUpon>BPAReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BPAStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BPAStatus.designer.cs">
+      <DependentUpon>BPAStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ccategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ccategory.designer.cs">
+      <DependentUpon>Ccategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemreport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemreport.designer.cs">
+      <DependentUpon>itemreport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pmBPAselect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pmBPAselect.designer.cs">
+      <DependentUpon>pmBPAselect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pmItemselect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pmItemselect.designer.cs">
+      <DependentUpon>pmItemselect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pmLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pmLine.designer.cs">
+      <DependentUpon>pmLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pmMain1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pmMain1.designer.cs">
+      <DependentUpon>pmMain1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pmrejectline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pmrejectline.designer.cs">
+      <DependentUpon>pmrejectline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RcreateOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RcreateOrder.designer.cs">
+      <DependentUpon>RcreateOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RequisitionMapping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequisitionMapping.designer.cs">
+      <DependentUpon>RequisitionMapping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="restInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="restInfo.designer.cs">
+      <DependentUpon>restInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="restOrderList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="restOrderList.designer.cs">
+      <DependentUpon>restOrderList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="staffInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staffInfo.designer.cs">
+      <DependentUpon>staffInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="supplierInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplierInfo.designer.cs">
+      <DependentUpon>supplierInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAppovalOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAppovalOrder.designer.cs">
+      <DependentUpon>ViewAppovalOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="virtualID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="virtualID.designer.cs">
+      <DependentUpon>virtualID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CeditCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CeditCategory.designer.cs">
+      <DependentUpon>CeditCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ROrderDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ROrderDetail.Designer.cs">
+      <DependentUpon>ROrderDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WCreateDeliveryNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WCreateDeliveryNote.designer.cs">
+      <DependentUpon>WCreateDeliveryNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WDeliveryNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WDeliveryNote.designer.cs">
+      <DependentUpon>WDeliveryNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WDeliveryNote1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WDeliveryNote1.designer.cs">
+      <DependentUpon>WDeliveryNote1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WDeliveryNoteDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WDeliveryNoteDetail.designer.cs">
+      <DependentUpon>WDeliveryNoteDetail.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BPACreate.resx">
+      <DependentUpon>BPACreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BPACreate2.resx">
+      <DependentUpon>BPACreate2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BPAEdit.resx">
+      <DependentUpon>BPAEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BPAEdit2.resx">
+      <DependentUpon>BPAEdit2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BPAReport.resx">
+      <DependentUpon>BPAReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BPAStatus.resx">
+      <DependentUpon>BPAStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ccategory.resx">
+      <DependentUpon>Ccategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemreport.resx">
+      <DependentUpon>itemreport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pmBPAselect.resx">
+      <DependentUpon>pmBPAselect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pmItemselect.resx">
+      <DependentUpon>pmItemselect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pmLine.resx">
+      <DependentUpon>pmLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pmMain1.resx">
+      <DependentUpon>pmMain1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pmrejectline.resx">
+      <DependentUpon>pmrejectline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RcreateOrder.resx">
+      <DependentUpon>RcreateOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequisitionMapping.resx">
+      <DependentUpon>RequisitionMapping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="restInfo.resx">
+      <DependentUpon>restInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="restOrderList.resx">
+      <DependentUpon>restOrderList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staffInfo.resx">
+      <DependentUpon>staffInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplierInfo.resx">
+      <DependentUpon>supplierInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAppovalOrder.resx">
+      <DependentUpon>ViewAppovalOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="virtualID.resx">
+      <DependentUpon>virtualID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CeditCategory.resx">
+      <DependentUpon>CeditCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ROrderDetail.resx">
+      <DependentUpon>ROrderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="WCreateDeliveryNote.resx">
+      <DependentUpon>WCreateDeliveryNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WDeliveryNote.resx">
+      <DependentUpon>WDeliveryNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WDeliveryNote1.resx">
+      <DependentUpon>WDeliveryNote1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WDeliveryNoteDetail.resx">
+      <DependentUpon>WDeliveryNoteDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
