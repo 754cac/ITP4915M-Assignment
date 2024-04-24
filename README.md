@@ -18,7 +18,7 @@ This is a procurement system developed in C# as part of the ITP4915M System Deve
 - SQL Server (MS Access)
 
 
-
+![Create Agreement](Image/createAgreementPage2.png)
 ## Acknowledgments
 
 - Special thanks to the instructors and teaching assistants of the ITP4915M module for their guidance and support throughout the project.
